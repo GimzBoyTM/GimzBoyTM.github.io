@@ -1,0 +1,117 @@
+input,
+textarea {
+  --tw-bg-opacity: 1;
+  background-color: rgb(42 45 54 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+input {
+  height: 2.75rem;
+  width: 100%;
+  border-radius: 6px;
+  border-style: none;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-size: 15px;
+}
+input::-moz-placeholder {
+  color: #525252;
+}
+input:-ms-input-placeholder {
+  color: #525252;
+}
+input::placeholder {
+  color: #cccccc;
+}
+
+/* CSS AUTH FORM */
+.auth-form {
+    background-color: none;
+    padding: 50px 200px;
+  }
+  
+  .auth-form-header {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .auth-form-body {
+    box-shadow: black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 25px 25px;
+    background-color: #353742 ;
+  }
+  
+  .auth-form-input {
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .auth-form-date-of-birth {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: none;
+    background-image: none;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .auth-form-select {
+    color: rgba(255, 255, 255, 0.829);
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 17em;
+     height: 3em;
+     line-height: 3;
+     background: #2a2d36;
+     overflow: hidden;
+     border-radius: 5px;
+  }
+  
+  .auth-form-label {
+    padding: 0 10px;
+  }
+  
+  .auth-form-terms {
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .auth-form-link {
+    color: #fe1e1e;
+  }
+  
+  .auth-form-checkbox {
+    width: fit-content;
+    margin-right: 5px;
+  }
+  
+  .auth-form-footer {
+    padding: 0 30%;
+  }
+  
+  .auth-form-btn {
+    border-radius: 5px;
+    size: 1.6rem;
+    height: 40px;
+    width: auto;
+    background-color: #fe1e1e;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
